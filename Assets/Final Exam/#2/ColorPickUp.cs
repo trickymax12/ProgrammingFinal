@@ -14,9 +14,13 @@ using UnityEngine;
  */
 
 
-public class ColorPickUp : MonoBehaviour
+public class ColorPickUp : PickUp
 {
     public Sprite newCarColorSprite;
+    public override void Activate()
+    {
+        base.Activate();
+    }
 
 
 
